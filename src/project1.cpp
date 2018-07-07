@@ -6,5 +6,6 @@ void Project1::foo(int &i) {
 
 
 void independentMethod(int &i) {
+	char *p=nullptr;
 	i = 0;
 }
