@@ -1,13 +1,18 @@
+
 #include <iostream>
 #include "gtest/gtest.h"
 
 #include "project1.h"
-TEST(pointMethod,nullp)
+TEST(IndependentMethod,nullp)
 {
 	char *res=getPointer();
 	EXPECT_EQ(nullptr,res);
 }
-
+TEST(IndependentMethod,square)
+{
+	int res=square(20);
+	EXPECT_EQ(400,res);
+}
 
 // IndependentMethod is a test case - here, we have 2 tests for this 1 test case
 TEST(IndependentMethod, ResetsToZero) {
