@@ -15,5 +15,6 @@ public:
 };
 
 void independentMethod(int &i);
+char * getPointer();
 
 #endif /* PROJECT1_H_ */
