@@ -9,3 +9,8 @@ void independentMethod(int &i) {
 	char *p=nullptr;
 	i = 0;
 }
+
+char * getPointer()
+{
+	return nullptr;
+}
