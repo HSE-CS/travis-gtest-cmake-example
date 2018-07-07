@@ -1,3 +1,4 @@
+
 #include "project1.h"
 
 void Project1::foo(int &i) {
@@ -13,4 +14,9 @@ void independentMethod(int &i) {
 char * getPointer()
 {
 	return nullptr;
+}
+
+int square(int x)
+{
+   return x*x;
 }
