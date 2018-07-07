@@ -1,3 +1,4 @@
+
 #ifndef PROJECT1_H_
 #define PROJECT1_H_
 
@@ -16,5 +17,6 @@ public:
 
 void independentMethod(int &i);
 char * getPointer();
+int square(int);
 
 #endif /* PROJECT1_H_ */
