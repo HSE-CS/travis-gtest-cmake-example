@@ -2,6 +2,11 @@
 #include "gtest/gtest.h"
 
 #include "project1.h"
+TEST(pointMethod,nullp)
+{
+	char *res=getPointer();
+	EXPECT_EQ(nullptr,res);
+}
 
 
 // IndependentMethod is a test case - here, we have 2 tests for this 1 test case
