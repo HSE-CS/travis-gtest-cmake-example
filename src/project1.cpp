@@ -18,5 +18,5 @@ char * getPointer()
 
 int square(int x)
 {
-   return x*x;
+   return x*x*x;
 }
